@@ -1,0 +1,10 @@
+https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#about-content-in-jekyll-sites
+
+https://jekyllrb.com/docs/front-matter/
+
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/dismissing-a-pull-request-review
+
+https://docs.github.com/en/pages/quickstart
+
+https://jekyllrb.com/docs/step-by-step/10-deployment/
+
