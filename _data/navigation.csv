@@ -1,5 +1,5 @@
-name,link
-Home, /
-About, /about.hmtl
-Newest Episode, /newest-episode.hmtl
-Episode List, /episode-list.hmtl
+name,space,link
+Home ,    , /
+About ,    , /about
+Newest Episode,    , /newest-episode
+Episode List,    , /episode-list
