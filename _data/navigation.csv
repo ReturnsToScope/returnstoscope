@@ -1,5 +1,6 @@
 name,space,link
-Home ,    , /
-About ,    , /about
+Home ,    , /returnstoscope
+About ,    , /returnstoscope/about
 Newest Episode,    , /newest-episode
 Episode List,    , /episode-list
+Podcasts,,/returnstoscope/blob/main/_podcasts/230314-112657-Ep-00-00.mp3?raw=true
