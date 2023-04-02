@@ -197,6 +197,7 @@ git push origin $newbranch
 echo ""
 echo ""
 echo ""
+git commit -m "Connect $newbranch and main"
 git merge main
 echo ""
 git checkout public
