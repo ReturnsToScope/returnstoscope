@@ -1,7 +1,7 @@
 ---
 layout: post
 title "Introductions"
-date: 2023-04-02 14:45:00 +0000
+date: 2023-04-02 14:45:00 -0600
 file: "/_podcasts/230314-112657 - Ep 00-00.mp3"
 categories: episodes introduction podcast
 description: "Testing the site"
