@@ -197,8 +197,15 @@ git push origin $newbranch
 echo ""
 echo ""
 echo ""
-git merge master
+git commit -m "Connect $newbranch and main"
+git merge main
 echo ""
+git checkout public
+git pull origin main
+git add . 
+git commit -m "Join Main and Public Branches"
+git push origin public
+git checkout $newbranch
 #
 #
 #
