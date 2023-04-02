@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:googleplay="http://google.com/schemas/play-podcasts/1.0">
+  <channel>
+    <title>Returns to Scope</title>
+    <itunes:owner>
+        <itunes:email>returnstoscope@gmail.com</itunes:email>
+        <itunes:owner>Returns To Scope</itunes:owner>
+    </itunes:owner>
+    <itunes:author>Returns to Scope</itunes:author>
+    <description>Economic and policy analysis tidbits designed designed as teaching tools and and as introduction to new learners.</description>
+    <itunes:image href="https://github.com/returnstoscope/Podcasts/main/Commit/logo01.png"/>
+    <language>en-us</language>
+    <link>https://github.com/returnstoscope/Podcasts</link>
+	<link rel="self" type="application/rss+xml" href="https://github.com/returnstoscope/Podcasts/main/feed.rss" />
+	<itunes:category text="Education" />
+    <item>
+      <title>RTS S0E0: Introduction to Returns to Scope</title>
+	  <itunes:title>RTS S0E0: Introduction</itunes:title>
+	  <itunes:season>0</itunes:season>
+	  <itunes:episode>0</itunes:episode>
+      <description>Returns to Scope is an educational project. Our goal is to create tools that help teach economics and policy analysis by making practical, clear, and informative content. The name "Returns to Scope" is the economic theory that you can accomplish more if you dabble a little in many fields, or if you cover a wide array of topics. The goal of this project is to give simple guides to economics and policy in hopes of making teaching tools that spur learning, discussion, and growth.</description>
+      <pubDate>Sun, 19 Mar 2023 12:00:00 CDT</pubDate>
+      <enclosure url="https://github.com/returnstoscope/Podcasts/main/Commit/docs/230314-112657 - Ep 00-00.mp3"
+                 type="audio/mpeg" length="555456"/>
+      <itunes:duration>00:34</itunes:duration>
+	  <guid>6341F29C-6994-4232-C6F3-7BB23CB97983</guid>
+    </item>
+  </channel>
+</rss>
