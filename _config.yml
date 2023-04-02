@@ -1,10 +1,20 @@
 theme: jekyll-theme-minimal
 title: Returns To Scope 
+tagline: A learning tool
 description: Homepage 
 thumbnail: /_assets/title_card_300px_v01.png
+avatar: /_assets/title_card_300px_v01.png
 authors: Returns to Scope
 collections:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+lang: en
+timezone: America/Chicago
+url: 'https://returnstoscope.github.io'
+exclude:
+    - '*.gem'
+    - README.md
+    - LICENSE
+baseurl: "main" 
