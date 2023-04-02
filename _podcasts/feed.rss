@@ -10,7 +10,7 @@
     </itunes:owner>
     <itunes:author>Returns to Scope</itunes:author>
     <description>Economic and policy analysis tidbits designed designed as teaching tools and and as introduction to new learners.</description>
-    <itunes:image href="https://github.com/returnstoscope/Podcasts/main/Commit/logo01.png"/>
+    <itunes:image href="https://github.com/ReturnsToScope/returnstoscope/tree/main/_assets/title_card.png"/>
     <language>en-us</language>
     <link>https://github.com/returnstoscope/Podcasts</link>
 	<link rel="self" type="application/rss+xml" href="https://github.com/returnstoscope/Podcasts/main/feed.rss" />
