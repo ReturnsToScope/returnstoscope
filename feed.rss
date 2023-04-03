@@ -21,8 +21,8 @@
 	{%- for myfile in site.static_files -%}
 		{%- if myfile.path contains 'podcasts' -%}
 			{%- assign mylocation = myfile.name -%} 
-			{%- assign mytime = myfile.modified_time -%} 
-
+			{% assign mytime = myfile.modified_time %} 
+			
 		<item>
 		  <title>{{ post.title | xml_escape }}</title>
 		  <itunes:title>{{ post.title | xml_escape }}</itunes:title>
