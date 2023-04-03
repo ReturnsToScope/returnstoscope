@@ -22,6 +22,7 @@
 		{%- if myfile.path contains 'podcasts' -%}
 			{%- assign mylocation = myfile.name -%} 
 			{%- assign mytime = myfile.modified_time -%} 
+
 		<item>
 		  <title>{{ post.title | xml_escape }}</title>
 		  <itunes:title>{{ post.title | xml_escape }}</itunes:title>
@@ -30,7 +31,7 @@
 		  <itunes:image href="{{ site.url }}_assets/title_card_2k_00_v01.png?raw=true"/>
 		  <description>{{ post.description | xml_escape }}</description>
 		  <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-		  <enclosure url="{{ site.url }}podcasts/{{ mylocation }}"
+		  <enclosure url="{{ post.dropbox }}"
 					 type="audio/mpeg" 
 					 length="{{ post.length }}"/>
 		  <itunes:duration>{{ post.duration }}</itunes:duration>
