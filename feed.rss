@@ -1,46 +1,92 @@
 ---
 ---
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-	xmlns:googleplay="http://google.com/schemas/play-podcasts/1.0">
-  <channel>
-    <title>Returns to Scope</title>
-    <itunes:owner>
-        <itunes:email>returnstoscope@gmail.com</itunes:email>
-        <itunes:owner>Returns To Scope</itunes:owner>
-    </itunes:owner>
-    <itunes:author>Returns to Scope</itunes:author>
-    <description>Economic and policy analysis tidbits designed designed as teaching tools and as introduction to new learners.</description>
-    <itunes:image href="{{ site.url }}_assets/title_card_2k_00_v01.png?raw=true"/>
-    <language>en-us</language>
-	<link>https://returnstoscope.github.io/returnstoscope/</link>
-	<link rel="self" type="application/rss+xml" href="https://returnstoscope.github.io/returnstoscope/feed.rss" />
-	<itunes:category text="Education" />
-{%- for post in site.data.podcast-list -%}
-	{%- for myfile in site.static_files -%}
-		{%- if myfile.path contains 'podcasts' -%}
-			{%- assign mylocation = myfile.name -%} 
-			{% assign mytime = myfile.modified_time %} 
-			
-		<item>
-		  <title>{{ post.title | xml_escape }}</title>
-		  <itunes:title>{{ post.title | xml_escape }}</itunes:title>
-		  <itunes:season>{{ post.season }}</itunes:season>
-		  <itunes:episode>{{ post.episode }}</itunes:episode>
-		  <itunes:image href="{{ site.url }}_assets/title_card_2k_00_v01.png?raw=true"/>
-		  <description>{{ post.description | xml_escape }}</description>
-		  <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-		  <enclosure url="{{ post.dropbox }}"
-					 type="audio/mpeg" 
-					 length="{{ post.length }}"/>
-		  <itunes:duration>{{ post.duration }}</itunes:duration>
-		  <guid>{{ post.guid }}</guid>
-		</item>
-		{%- else -%}
-		{%- endif -%}
-	{%- endfor -%}
-{%- endfor -%}
-	
-  </channel>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/global/feed/rss.xslt" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:podaccess="https://access.acast.com/schema/1.0/" xmlns:acast="https://schema.acast.com/1.0/">
+		<channel>
+				<ttl>60</ttl>
+
+				<generator>acast.com</generator>
+
+				<title>Returns To Scope</title>
+
+				<link>https://feeds.acast.com/public/shows/returns-to-scope</link>
+				
+				<link>https://returnstoscope.github.io/returnstoscope/</link>
+
+			<atom:link href="https://feeds.acast.com/public/shows/642b4366fe70630011c90d21" rel="self" type="application/rss+xml"/>
+				<language>en</language>
+
+				<copyright>Thomas Durfee</copyright>
+
+				<itunes:keywords/>
+
+				<itunes:author>Thomas Durfee</itunes:author>
+
+				<itunes:subtitle>A discussion of social science goings on</itunes:subtitle>
+
+				<itunes:summary><![CDATA[<h3>Returns to Scope is an educational project. Our goal is to create tools that help teach economics and policy analysis by making practical, clear, and informative content.</h3><h3>The name Returns to Scope is the economic theory that you can accomplish more if you dabble a little in many fields, or if you cover a wide array of topics. The goal of this project is to give simple guides to economics and policy in hopes of making teaching tools that spur learning, discussion, and growth.</h3><p><br><br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></itunes:summary>
+
+				<description><![CDATA[<h3>Returns to Scope is an educational project. Our goal is to create tools that help teach economics and policy analysis by making practical, clear, and informative content.</h3><h3>The name Returns to Scope is the economic theory that you can accomplish more if you dabble a little in many fields, or if you cover a wide array of topics. The goal of this project is to give simple guides to economics and policy in hopes of making teaching tools that spur learning, discussion, and growth.</h3><p><br><br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></description>
+
+				<itunes:explicit>no</itunes:explicit>
+
+				<itunes:owner>
+					<itunes:name>Thomas Durfee</itunes:name>
+					<itunes:email>info+642b4366fe70630011c90d21@mg.pippa.io</itunes:email>
+</itunes:owner>
+
+				<acast:showId>642b4366fe70630011c90d21</acast:showId>
+
+				<acast:showUrl>returns-to-scope</acast:showUrl>
+
+			<acast:signature key="EXAMPLE" algorithm="aes-256-cbc"><![CDATA[tgLTRlhdnnT53RcIGO2skQ==]]></acast:signature>
+				<acast:settings><![CDATA[NXVgv/9Zfr3SiSfAfwdTb8pEyGf2bQLHccjwOHlSDMlDrdAXI8zBgnzXxMNByZSviVhzCdDkRJ6nRWneTlnN8Cnk4WwTowkrINHsGbpt8lX1F/EWP9wTF5gH/LbcyLFoKb9bao9lgFcphcDdwjyDc4MGhayOuNiI4AQGZHQfsRrOc8/+lMDad43CJBsZv6hxIDQOBhIndXkpqkkDc87sH9fGn+YOOs1IC4oah98mpx7SX/tWqPWxzZFQpMTGg2mYAJDmdFOoWtyo8rsTtfy/57ub46OGYs8mRWgIAC9Afr2qFWBHv7BU0SLr0ov7usD7avWsZr4lSGncepybGdG2GbkI+kI7OaLOgg2uzQlpO7+o5E717YN2xOrCMHONogLKNGEXZedAPZhNHc6o6u8PugqJXo1E8CJx/jCg12z8WmVRs00fEKg/QA5gu8i26i9HjijYSwXZFOyvn4Av9M3KzrlDeLX+qETxHn0vvmyKZf4=]]></acast:settings>
+
+				<itunes:type>episodic</itunes:type>
+
+			<itunes:image href="https://assets.pippa.io/shows/cover/1680556726848-0fa36f6243f261d05814e7177f2402aa.jpeg"/>
+				<image>
+					<url>https://assets.pippa.io/shows/cover/1680556726848-0fa36f6243f261d05814e7177f2402aa.jpeg</url>
+					<link>https://feeds.acast.com/public/shows/returns-to-scope</link>
+					<title>Returns To Scope</title>
+</image>
+
+				<item>
+						<title>Introduction to Returns to Scope</title>
+
+						<itunes:title>Introduction to Returns to Scope</itunes:title>
+
+						<pubDate>Mon, 03 Apr 2023 21:26:49 GMT</pubDate>
+
+						<itunes:duration>0:33</itunes:duration>
+
+					<enclosure url="https://sphinx.acast.com/p/open/s/642b4366fe70630011c90d21/e/642b449d9bb1730011eeef03/media.mp3" length="559562" type="audio/mpeg"/>
+					<guid isPermaLink="false">642b449d9bb1730011eeef03</guid>
+						<itunes:explicit>no</itunes:explicit>
+
+						<link/>
+
+						<acast:episodeId>642b449d9bb1730011eeef03</acast:episodeId>
+
+						<acast:settings><![CDATA[NXVgv/9Zfr3SiSfAfwdTbwzyQjzgXnyhuoDYAa9MRR6NzAMrggmwhyUVjLxO3nLf3fytzYRQZ16poxgM2+g/fAL3cQUvbr6Qm6SCnth5Fo8tnbwbj1yTINjv8Fst+ohpzMaYn2U5RzL0HAwvl1IKO1iJqCNgh7NuRJ7yEB/jquv1xTuQRilsMBRXHt42GY50h+6R0t3k/qJ7Pli5f2wx9SvDA5WnVg6M9eEIgzWE9YK8/ZJW4cC0C5L/03TqS9hdBUdvH+ezvuTyZnfDNIdaKdUVqf9gt7wAlXgLMxE4iodmg/Kybhz/SoQPhmJSGkHjSfhKhmggTvi4+tmxEEeiessdG6LZquNwBkdq5UohhD/40NOSqKybPdRYRrsWlRnATU7I1C6fWnKHRVGsddQ6Ybpx1pzRyinvsHBoknALI40RgQCVnpVYFCi6nKeGxt/Spf2Zw/BcXYrejaDFvkiGLgJQVGGGPc8IZaZPcH/1TtURs/p2ZkvHrJzz6OxOmkJxG+xxxyCdACvMeVv6DNujbOMr8UjahDvEI3JEWKXKDEGGoXwthfbaDUPL+9AuG+l/]]></acast:settings>
+
+						<itunes:subtitle>Objectives of the channel</itunes:subtitle>
+
+						<itunes:episodeType>full</itunes:episodeType>
+
+					<itunes:image href="https://assets.pippa.io/shows/cover/1680556726848-0fa36f6243f261d05814e7177f2402aa.jpeg"/>
+						<description><![CDATA[Welcome to Returns To Scope. This is an educational project where we cover economic and quantitative data.<br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></description>
+
+						<itunes:summary><![CDATA[Welcome to Returns To Scope. This is an educational project where we cover economic and quantitative data.<br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></itunes:summary>
+
+</item>
+
+			<itunes:category text="Education"/>
+			<itunes:category text="Science">
+					<itunes:category text="Social Sciences"/>
+
+			</itunes:category>
+</channel>
+
 </rss>
