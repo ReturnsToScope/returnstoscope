@@ -2,4 +2,4 @@ name,space,link
 Home ,    , /returnstoscope
 About ,    , /returnstoscope/about
 Podcasts,,/returnstoscope/blob/public/_podcasts/230314-112657-Ep-00-00.mp3?raw=true
-RSS,,https://raw.githubusercontent.com/ReturnsToScope/returnstoscope/public/_podcasts/feed.rss
+RSS,,https://returnstoscope.github.io/returnstoscope/feed.rss
