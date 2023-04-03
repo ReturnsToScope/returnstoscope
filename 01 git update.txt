@@ -190,6 +190,8 @@ echo ""
 echo ""
 echo ""
 git pull origin $thisbranch
+git pull origin public
+git pull origin main
 echo ""
 echo ""
 echo ""
@@ -201,6 +203,9 @@ git commit -m "Connect $newbranch and main"
 git merge main
 echo ""
 git checkout public
+git add .
+git commit -m "Connect $newbranch and public"
+git pull origin $thisbranch
 git pull origin main
 git add . 
 git commit -m "Join Main and Public Branches"
