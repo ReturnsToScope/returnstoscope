@@ -20,7 +20,7 @@
 {% for post in site.data.podcast-list %}
 	{% for myfile in site.static_files %}
 		{% if myfile.path contains 'podcasts' %}
-			{% assign mylocation = myfile.path %} 
+			{% assign mylocation = myfile.name %} 
 			{% assign mytime = myfile.modified_time %} 
 		<item>
 		  <title>{{ post.title | xml_escape }}</title>
@@ -29,8 +29,8 @@
 		  <itunes:episode>{{ post.episode }}</itunes:episode>
 		  <itunes:image href="{{ site.url }}_assets/title_card_2k_00_v01.png?raw=true"/>
 		  <description>{{ post.description | xml_escape }}</description>
-		  <pubDate>{{ mytime }}</pubDate>
-		  <enclosure url="{{ site.url }}{{ mylocation }}"
+		  <pubDate>{{ mytime | date_to_rfc822 }}</pubDate>
+		  <enclosure url="{{ site.url }}podcasts/{{ mylocation }}"
 					 type="audio/mpeg" 
 					 length="{{ post.length }}"/>
 		  <itunes:duration>{{ post.duration }}</itunes:duration>
