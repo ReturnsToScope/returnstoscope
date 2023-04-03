@@ -28,6 +28,7 @@
 				<testdate>{{ mytime }}</testdate>
 			{% endif %}
 		{% endfor %}
+	{% endfor %}
 		
 		<item>
 		  <title>{{ post.title | xml_escape }}</title>
