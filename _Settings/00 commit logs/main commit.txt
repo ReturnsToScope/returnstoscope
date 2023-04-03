@@ -1,7 +1,7 @@
 Project Name: Returns To Scope 
 Project State: initialization 
 Project Directory: /i/Returns to Scope/Podcasts/Publish 
-Last Update: Sun Apr  2 18:32:24 CDT 2023 
+Last Update: Sun Apr  2 18:56:11 CDT 2023 
 Branch Name: rts_2023_04_0002 
 Branch UID: 0002 
  
@@ -9,11 +9,11 @@ Last Time I Worked On This Project :
  
  
 This Time I : 
- added diffent jekyll framework and allowed for direct file storage
+ 
  
 Next Time I Will : 
  
  
  
  
-Time of Commit: Sun Apr  2 18:55:41 CDT 2023
+Time of Commit: Sun Apr  2 19:00:12 CDT 2023
