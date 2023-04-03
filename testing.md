@@ -5,13 +5,16 @@ Returns to Scope is an educational project. Our goal is to create tools that hel
 The name Returns to Scope is the economic theory that you can accomplish more if you dabble a little in many fields, or if you cover a wide array of topics. The goal of this project is to give simple guides to economics and policy in hopes of making teaching tools that spur learning, discussion, and growth. 
 
 {% for post in site.data.podcast-list %}
+	"post : {{ post }}"
 	{% for myfile in site.static_files %}
+		"myfile : {{myfile}}"
 		{% if post.file == myfile.name %}
+		
 			{% assign mylocation = myfile.path %} 
 			{% assign mytime = myfile.modified_time %} 
-			<test> 1 </test>
-			<testname>{{ mylocation }}</testname>
-			<testdate>{{ mytime }}</testdate>
+			<test> "1" </test>
+			<testname>"{{ mylocation }}"</testname>
+			<testdate>"{{ mytime }}"</testdate>
 		{% endif %}
 	{% endfor %}
 {% endfor %}
