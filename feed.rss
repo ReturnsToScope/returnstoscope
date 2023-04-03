@@ -11,7 +11,7 @@
         <itunes:owner>Returns To Scope</itunes:owner>
     </itunes:owner>
     <itunes:author>Returns to Scope</itunes:author>
-    <description>Economic and policy analysis tidbits designed designed as teaching tools and and as introduction to new learners.</description>
+    <description>Economic and policy analysis tidbits designed designed as teaching tools and as introduction to new learners.</description>
     <itunes:image href="{{ site.url }}_assets/title_card_2k_00_v01.png?raw=true"/>
     <language>en-us</language>
 	<link>https://returnstoscope.github.io/returnstoscope/</link>
