@@ -12,9 +12,8 @@ plugins:
   - jekyll-seo-tag
 lang: en
 timezone: America/Chicago
-url: 'https://returnstoscope.github.io/returnstoscope'
+url: 'https://github.com/ReturnsToScope/returnstoscope/blob/public/'
 exclude:
     - '*.gem'
     - README.md
-    - LICENSE
-baseurl: "main" 
+    - LICENSE 
