@@ -23,12 +23,11 @@
 			{% if post.file == myfile.name %}
 				{% assign mylocation = myfile.path %} 
 				{% assign mytime = myfile.modified_time %} 
-				<test> 1 </test>
-				<testname>{{ mylocation }}</testname>
-				<testdate>{{ mytime }}</testdate>
+				<test> "1" </test>
+				<test2 date="{{ mytime }}"
+						name="{{ mylocation }}" </>
 			{% endif %}
 		{% endfor %}
-	{% endfor %}
 		
 		<item>
 		  <title>{{ post.title | xml_escape }}</title>
