@@ -11,9 +11,10 @@ thumbnail: /_assets/title_card_300px_v01.png
 
 This is a list of the newest episodes: 
 
-![Introduction]("/_podcasts/230314-112657-Ep00-00.mp3?raw=true")
+[Introduction]("/_podcasts/230314-112657-Ep00-00.mp3?raw=true")
 
 <ul>
+  ("/_assets/title_card_300px_v01.png")
   {% for post in site.posts %}
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
