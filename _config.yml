@@ -12,7 +12,7 @@ plugins:
   - jekyll-seo-tag
 lang: en
 timezone: America/Chicago
-url: 'https://returnstoscope.github.io'
+url: 'https://returnstoscope.github.io/returnstoscope'
 exclude:
     - '*.gem'
     - README.md
