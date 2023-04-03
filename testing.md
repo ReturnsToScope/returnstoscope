@@ -9,11 +9,13 @@ The name Returns to Scope is the economic theory that you can accomplish more if
 	{% for myfile in site.static_files %}
 		"myfile : {{ myfile }}"
 		{% if myfile.path contains 'podcasts' %}
-			<p>{% assign mylocation = myfile.path %} </p>
-			<p>{% assign mytime = myfile.modified_time %} </p>
-			<p> "1" </p>
+			{% assign mylocation = myfile.path %} 
+			{% assign mytime = myfile.modified_time %} 
+			<p> 1 </p>
 			<p>"{{ mylocation }}"</p>
 			<p>"{{ mytime }}"</p>
+		{% else %}
+		
 		{% endif %}
 	{% endfor %}
 {% endfor %}
