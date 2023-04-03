@@ -11,7 +11,7 @@ thumbnail: /_assets/title_card_300px_v01.png
 
 This is a list of the newest episodes: 
 
-![Introduction]("/_podcasts/230314-112657 - Ep 00-00.mp3")
+![Introduction]("/_podcasts/230314-112657-Ep00-00.mp3?raw=true")
 
 <ul>
   {% for post in site.posts %}
@@ -23,12 +23,3 @@ This is a list of the newest episodes:
 </ul>
 
 This is a second line:
-
-<div class="includes-grid">
-  {% for episode in site.data.podcast-list %}
-	<li>
-	{{ post.excerpt }}
-	</li>
- {% include podcast.html podcast_id="123456789" %>
- {% include youtube.html youtube_id="987654321" %}
-</div>
