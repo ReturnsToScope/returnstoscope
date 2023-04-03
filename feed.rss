@@ -20,7 +20,7 @@
     
 	{% for post in site.data.podcast-list %}
 		{% for myfile in site.static_files %}
-			{% if myfile.name containts post.file %}
+			{% if myfile.name == post.file %}
 				{% assign mylocation = myfile.path %} 
 				{% assign mytime = myfile.modified_time %} 
 				<test> "1" </test>
