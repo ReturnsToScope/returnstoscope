@@ -26,7 +26,7 @@
 		  <itunes:episode>{{ post.episode }}</itunes:episode>
 		  <itunes:image href="{{ site.url }}/_assets/title_card_2k_00_v01.png"/>
 		  <description>{{ post.description | xml_escape }}</description>
-		  <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+		  <pubDate>{{ post.date }}</pubDate>
 		  <enclosure url="{{ post.file }}"
 					 type="audio/mpeg" 
 					 length="{{ post.length }}"/>
