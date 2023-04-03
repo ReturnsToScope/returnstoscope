@@ -9,6 +9,7 @@ The name Returns to Scope is the economic theory that you can accomplish more if
 [RSS](https://github.com/ReturnsToScope/returnstoscope/blob/public/_podcasts/feed.rss?raw=true)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  
 =======
  
@@ -16,3 +17,6 @@ The name Returns to Scope is the economic theory that you can accomplish more if
 =======
 
 >>>>>>> 263de289c378dcaa0cd82ae0e9ff1763a358ecc1
+=======
+
+>>>>>>> 2290f36bef78447c0f731ed0d1b92dc423076af3
