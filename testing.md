@@ -7,7 +7,6 @@ The name Returns to Scope is the economic theory that you can accomplish more if
 {% for post in site.data.podcast-list %}
 	"post : {{ post }}"
 	{% for myfile in site.static_files %}
-		"myfile : {{ myfile }}"
 		{% if myfile.path contains 'podcasts' %}
 			{% assign mylocation = myfile.path %} 
 			{% assign mytime = myfile.modified_time %} 
