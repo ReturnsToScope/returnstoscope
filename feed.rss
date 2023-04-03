@@ -12,7 +12,7 @@
     </itunes:owner>
     <itunes:author>Returns to Scope</itunes:author>
     <description>Economic and policy analysis tidbits designed designed as teaching tools and and as introduction to new learners.</description>
-    <itunes:image href="{{ site.url }}_assets/title_card_2k_00_v01.png"/>
+    <itunes:image href="{{ site.url }}_assets/title_card_2k_00_v01.png?raw=true"/>
     <language>en-us</language>
 	<link>https://returnstoscope.github.io/returnstoscope/</link>
 	<link rel="self" type="application/rss+xml" href="https://returnstoscope.github.io/returnstoscope/feed.rss" />
@@ -24,10 +24,10 @@
 		  <itunes:title>{{ post.title | xml_escape }}</itunes:title>
 		  <itunes:season>{{ post.season }}</itunes:season>
 		  <itunes:episode>{{ post.episode }}</itunes:episode>
-		  <itunes:image href="{{ site.url }}_assets/title_card_2k_00_v01.png"/>
+		  <itunes:image href="{{ site.url }}_assets/title_card_2k_00_v01.png?raw=true"/>
 		  <description>{{ post.description | xml_escape }}</description>
 		  <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-		  <enclosure url="{{ site.url }}_podcasts/{{ post.file }}"
+		  <enclosure url="{{ site.url }}_podcasts/{{ post.file }}?raw=true"
 					 type="audio/mpeg" 
 					 length="{{ post.length }}"/>
 		  <itunes:duration>{{ post.duration }}</itunes:duration>
