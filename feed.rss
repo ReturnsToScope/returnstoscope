@@ -24,9 +24,9 @@
 		  <itunes:title>{{ post.title | xml_escape }}</itunes:title>
 		  <itunes:season>{{ post.season }}</itunes:season>
 		  <itunes:episode>{{ post.episode }}</itunes:episode>
-		  <itunes:image href="{{ site.url }}/_assets/title_card_2k_00_v01.png"/>
+		  <itunes:image href="{{ site.url }}_assets/title_card_2k_00_v01.png"/>
 		  <description>{{ post.description | xml_escape }}</description>
-		  <pubDate>{{ post.date }}</pubDate>
+		  <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 		  <enclosure url="{{ site.url }}_podcasts/{{ post.file }}"
 					 type="audio/mpeg" 
 					 length="{{ post.length }}"/>
