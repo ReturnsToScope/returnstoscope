@@ -1,21 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 ---
-layout: null
 ---
->>>>>>> 92914f20c93b4c3cc3a85d54ba6f9d047b2d4d0d
-=======
----
-layout: null
----
->>>>>>> 263de289c378dcaa0cd82ae0e9ff1763a358ecc1
-=======
----
-layout: null
----
->>>>>>> 2290f36bef78447c0f731ed0d1b92dc423076af3
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
@@ -30,13 +14,8 @@ layout: null
     <description>Economic and policy analysis tidbits designed designed as teaching tools and and as introduction to new learners.</description>
     <itunes:image href="https://github.com/ReturnsToScope/returnstoscope/blob/main/_assets/title_card_2k_00_v01.png"/>
     <language>en-us</language>
-<<<<<<< HEAD
     <link>https://github.com/ReturnsToScope/returnstoscope/blob/public/_podcasts</link>
 	<link rel="self" type="application/rss+xml" href="https://returnstoscope.github.io/returnstoscope/feed.rss" />
-=======
-    <link>https://github.com/returnstoscope/Podcasts</link>
-	<link rel="self" type="application/rss+xml" href="https://github.com/ReturnsToScope/returnstoscope/public/main/_podcasts/feed.rss" />
->>>>>>> 92914f20c93b4c3cc3a85d54ba6f9d047b2d4d0d
 	<itunes:category text="Education" />
     <item>
       <title>RTS S0E0: Introduction to Returns to Scope</title>
@@ -51,8 +30,4 @@ layout: null
 	  <guid>6341F29C-6994-4232-C6F3-7BB23CB97983</guid>
     </item>
   </channel>
-<<<<<<< HEAD
 </rss>
-=======
-</rss>
->>>>>>> 92914f20c93b4c3cc3a85d54ba6f9d047b2d4d0d
