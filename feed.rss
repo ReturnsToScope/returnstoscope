@@ -19,13 +19,13 @@
 	<itunes:category text="Education" />
     
 	{% for post in site.data.podcast-list %}
-		{% for myfile in site.static_files | file.extname == ".mp3" %}
+		{% for myfile in site.static_files %}
 			{% if post.file == myfile.name %}
 				{% assign mylocation = myfile.path %} 
 				{% assign mytime = myfile.modified_time %} 
-				1
-				{{ mylocation }} 
-				{{ mytime }}
+				<test> 1 </test>
+				<testname>{{ mylocation }}</testname>
+				<testdate>{{ mytime }}</testdate>
 			{% endif %}
 		{% endfor %}
 		
