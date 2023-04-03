@@ -19,7 +19,7 @@
 	<itunes:category text="Education" />
     
 	{% for post in site.data.podcast-list %}
-		{% for myfile in site.static-files %}
+		{% for myfile in site.static_files %}
 			{% if post.file == myfile.name %}
 				{% assign mylocation = myfile.path %} 
 				{% assign mytime = myfile.modified_time %} 
