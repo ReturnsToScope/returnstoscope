@@ -17,15 +17,11 @@
 	<link>https://returnstoscope.github.io/returnstoscope/</link>
 	<link rel="self" type="application/rss+xml" href="https://returnstoscope.github.io/returnstoscope/feed.rss" />
 	<itunes:category text="Education" />
-    
-
 {% for post in site.data.podcast-list %}
-	"post : {{ post }}"
 	{% for myfile in site.static_files %}
 		{% if myfile.path contains 'podcasts' %}
 			{% assign mylocation = myfile.path %} 
 			{% assign mytime = myfile.modified_time %} 
-			
 		<item>
 		  <title>{{ post.title | xml_escape }}</title>
 		  <itunes:title>{{ post.title | xml_escape }}</itunes:title>
@@ -41,13 +37,9 @@
 		  <guid>{{ post.guid }}</guid>
 		</item>
 		{% else %}
-		
 		{% endif %}
 	{% endfor %}
 {% endfor %}
-		
-		
-	{% endfor %}
 	
   </channel>
 </rss>
