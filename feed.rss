@@ -1,5 +1,3 @@
----
----
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="/global/feed/rss.xslt" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:podaccess="https://access.acast.com/schema/1.0/" xmlns:acast="https://schema.acast.com/1.0/">
@@ -11,8 +9,6 @@
 				<title>Returns To Scope</title>
 
 				<link>https://feeds.acast.com/public/shows/returns-to-scope</link>
-				
-				<link>https://returnstoscope.github.io/returnstoscope/</link>
 
 			<atom:link href="https://feeds.acast.com/public/shows/642b4366fe70630011c90d21" rel="self" type="application/rss+xml"/>
 				<language>en</language>
@@ -40,8 +36,8 @@
 
 				<acast:showUrl>returns-to-scope</acast:showUrl>
 
-			<acast:signature key="EXAMPLE" algorithm="aes-256-cbc"><![CDATA[tgLTRlhdnnT53RcIGO2skQ==]]></acast:signature>
-				<acast:settings><![CDATA[NXVgv/9Zfr3SiSfAfwdTb8pEyGf2bQLHccjwOHlSDMlDrdAXI8zBgnzXxMNByZSviVhzCdDkRJ6nRWneTlnN8Cnk4WwTowkrINHsGbpt8lX1F/EWP9wTF5gH/LbcyLFoKb9bao9lgFcphcDdwjyDc4MGhayOuNiI4AQGZHQfsRrOc8/+lMDad43CJBsZv6hxIDQOBhIndXkpqkkDc87sH9fGn+YOOs1IC4oah98mpx7SX/tWqPWxzZFQpMTGg2mYAJDmdFOoWtyo8rsTtfy/57ub46OGYs8mRWgIAC9Afr2qFWBHv7BU0SLr0ov7usD7avWsZr4lSGncepybGdG2GbkI+kI7OaLOgg2uzQlpO7+o5E717YN2xOrCMHONogLKNGEXZedAPZhNHc6o6u8PugqJXo1E8CJx/jCg12z8WmVRs00fEKg/QA5gu8i26i9HjijYSwXZFOyvn4Av9M3KzrlDeLX+qETxHn0vvmyKZf4=]]></acast:settings>
+			<acast:signature key="EXAMPLE" algorithm="aes-256-cbc"><![CDATA[cwAfDA/DrNoDtIrce1Ks4w==]]></acast:signature>
+				<acast:settings><![CDATA[/ACMGWqkIY7v+DO7bqvJpTstbuk8kvnfiwqCWUHelCwFH94SVzLfASqRMsw1ksSGxlb9MYWcuUl+1vpqqdAQRFodCs0ODZomUfkL2IA2l6kIQ8wTYKX/5r/FP5KFBwYt/enwP0fKOIy6mpoFh/8r4IUWvSXJmGFdEEoE2oYflqpcmWYe7DxgSjy0v5V3ksO/x9BSykMWj+FOusS4uih32HwACdOfcWniLlwprIzeVbcGo99krEo0Z2UIYZrrRU9a6/FmTrSW48sph/PypyK5xjIUUu5BEI1mooXwPr34/oTjBM2XBccEpF1VDrsOkLP9rPI8SWCejcWXWoYgdEnB1Jnp0uobf38JOautcZAzGdJhY8lh4cSBUg/nzDBCCoUKINpqqq2BoRatOX2jAgnFEM4K+f2yIYYVL+arajTyOIlWNcUkvonfJFTjp280DENydiDMuK/xiNajqHxhs9eFW7dypcsbFRwQHIPikXchjU0=]]></acast:settings>
 
 				<itunes:type>episodic</itunes:type>
 
@@ -51,6 +47,40 @@
 					<link>https://feeds.acast.com/public/shows/returns-to-scope</link>
 					<title>Returns To Scope</title>
 </image>
+
+				<item>
+						<title>RTS - The April 2023 JOLTS Report</title>
+
+						<itunes:title>RTS - The April 2023 JOLTS Report</itunes:title>
+
+						<pubDate>Tue, 04 Apr 2023 19:25:15 GMT</pubDate>
+
+						<itunes:duration>13:47</itunes:duration>
+
+					<enclosure url="https://sphinx.acast.com/p/open/s/642b4366fe70630011c90d21/e/642c799b2627140010c778d1/media.mp3" length="26489856" type="audio/mpeg"/>
+					<guid isPermaLink="false">642c799b2627140010c778d1</guid>
+						<itunes:explicit>no</itunes:explicit>
+
+						<link/>
+
+						<acast:episodeId>642c799b2627140010c778d1</acast:episodeId>
+
+						<acast:settings><![CDATA[/ACMGWqkIY7v+DO7bqvJpRRusezR74rMLByPdJHoztXD/lRYGzYe84964MH0K23JB8tNbdVM333PPuNKyLggJ/jCw9sZwBGZGo8MXKGlPxeX26+ZJHWOYQ0BAxYb5VlDpTlxapgCjVj0aYqUaqrb3QSk/VLsnLbB8GGPYkQTVVPZrVZ8CREUpXV19gkVlyF6bQmEq+RItvoqjJ2WorYdE3kKnpHzLt9Jg0toOV18jQuKCaKDc/SF6C2r+uIu9LMGEq06/Kw86+HGIsrT8kyYoPjeOami7+Xs4UhOBRylHgt/6odFOsKG2FRiYISZnPQLbxRosu/9E42MwVgkogMnElB8iA+qwjwaBUTCFjyLGVxOuWNRYfdhVAMzqGoWA3ek/q3bGXNM2ULjOCi5DiHPdppZA0haQip1mDqhnYo0uHooznEkvDyauEtskt4bUkqwOJBerE/w8CzNQCHw37bO5UhA01ir2usdFsfkultdZIDGhQDWlbTFw2SKZenKg83AMjkhtW/MWzYsRmCbD2Iow3rb7lkO1VMXYbdhlWp1aI7rJUOxs7cfgmf+uKagq35v]]></acast:settings>
+
+						<itunes:subtitle>Turnover data from the BLS</itunes:subtitle>
+
+						<itunes:episodeType>full</itunes:episodeType>
+
+						<itunes:season>1</itunes:season>
+
+						<itunes:episode>1</itunes:episode>
+
+					<itunes:image href="https://assets.pippa.io/shows/cover/1680556726848-0fa36f6243f261d05814e7177f2402aa.jpeg"/>
+						<description><![CDATA[<p>The first episode includes text from the Bureau of Labor Statistics report on job vacancies and labor turnover from data collected in February 2023. I read the release, and share my initial thoughts. For the official JOLTS release, go to bls.gov. </p><br><p>This is not an official BLS project, but a voluntary project intended for educational purposes.</p><p><br></p><br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></description>
+
+						<itunes:summary><![CDATA[<p>The first episode includes text from the Bureau of Labor Statistics report on job vacancies and labor turnover from data collected in February 2023. I read the release, and share my initial thoughts. For the official JOLTS release, go to bls.gov. </p><br><p>This is not an official BLS project, but a voluntary project intended for educational purposes.</p><p><br></p><br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></itunes:summary>
+
+</item>
 
 				<item>
 						<title>Introduction to Returns to Scope</title>
@@ -69,7 +99,7 @@
 
 						<acast:episodeId>642b449d9bb1730011eeef03</acast:episodeId>
 
-						<acast:settings><![CDATA[NXVgv/9Zfr3SiSfAfwdTbwzyQjzgXnyhuoDYAa9MRR6NzAMrggmwhyUVjLxO3nLf3fytzYRQZ16poxgM2+g/fAL3cQUvbr6Qm6SCnth5Fo8tnbwbj1yTINjv8Fst+ohpzMaYn2U5RzL0HAwvl1IKO1iJqCNgh7NuRJ7yEB/jquv1xTuQRilsMBRXHt42GY50h+6R0t3k/qJ7Pli5f2wx9SvDA5WnVg6M9eEIgzWE9YK8/ZJW4cC0C5L/03TqS9hdBUdvH+ezvuTyZnfDNIdaKdUVqf9gt7wAlXgLMxE4iodmg/Kybhz/SoQPhmJSGkHjSfhKhmggTvi4+tmxEEeiessdG6LZquNwBkdq5UohhD/40NOSqKybPdRYRrsWlRnATU7I1C6fWnKHRVGsddQ6Ybpx1pzRyinvsHBoknALI40RgQCVnpVYFCi6nKeGxt/Spf2Zw/BcXYrejaDFvkiGLgJQVGGGPc8IZaZPcH/1TtURs/p2ZkvHrJzz6OxOmkJxG+xxxyCdACvMeVv6DNujbOMr8UjahDvEI3JEWKXKDEGGoXwthfbaDUPL+9AuG+l/]]></acast:settings>
+						<acast:settings><![CDATA[/ACMGWqkIY7v+DO7bqvJpRRusezR74rMLByPdJHoztXD/lRYGzYe84964MH0K23JB8tNbdVM333PPuNKyLggJ/jCw9sZwBGZGo8MXKGlPxeX26+ZJHWOYQ0BAxYb5VlDpTlxapgCjVj0aYqUaqrb3QSk/VLsnLbB8GGPYkQTVVPZrVZ8CREUpXV19gkVlyF6bQmEq+RItvoqjJ2WorYdE3kKnpHzLt9Jg0toOV18jQuKCaKDc/SF6C2r+uIu9LMGEq06/Kw86+HGIsrT8kyYoPjeOami7+Xs4UhOBRylHgt/6odFOsKG2FRiYISZnPQLbxRosu/9E42MwVgkogMnElB8iA+qwjwaBUTCFjyLGVxOuWNRYfdhVAMzqGoWA3ek/q3bGXNM2ULjOCi5DiHPdppZA0haQip1mDqhnYo0uHooznEkvDyauEtskt4bUkqwOJBerE/w8CzNQCHw37bO5UhA01ir2usdFsfkultdZIABleSbc2jRx0m1pAvgySpyr4SE/Qlp5KX+NhauBQafJBf0jbsfpgryy/6F62gVhMOnvMdSqFdGSUyLU4Lzl51P]]></acast:settings>
 
 						<itunes:subtitle>Objectives of the channel</itunes:subtitle>
 
