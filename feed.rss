@@ -1,1 +1,260 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Acast Insights</title><meta name="description" content=""/><link rel="preconnect" href="//cdn.acast.com/"/><link rel="preconnect" href="//imagecdn.acast.com"/><link rel="dns-prefetch" href="//cdn.acast.com/"/><link rel="dns-prefetch" href="//imagecdn.acast.com"/><link rel="shortcut icon" type="image/png" href="https://cdn.acast.com/images/favicons/favicon-32x32.png"/><link rel="apple-touch-icon" sizes="196x196" href="https://cdn.acast.com/images/favicons/favicon-196x196.png"/><script>window["acast/config"] = {"env":"production","insightsApiUrl":"https://insights-api.acast.com","graphqlApiUrl":"https://graphql-api.prod.vision.acast.com","gaTrackingID":"UA-62254835-6","sentryDsn":"https://8df7e3b383364359a703ef247d074656@sentry.io/151489"}</script><script>(()=>{"use strict";var e,r,t,o,n,a,i,l,u,s={},c={};function d(e){var r=c[e];if(void 0!==r)return r.exports;var t=c[e]={id:e,loaded:!1,exports:{}};return s[e].call(t.exports,t,t.exports,d),t.loaded=!0,t.exports}d.m=s,e="function"==typeof Symbol?Symbol("webpack queues"):"__webpack_queues__",r="function"==typeof Symbol?Symbol("webpack exports"):"__webpack_exports__",t="function"==typeof Symbol?Symbol("webpack error"):"__webpack_error__",o=e=>{e&&!e.d&&(e.d=1,e.forEach((e=>e.r--)),e.forEach((e=>e.r--?e.r++:e())))},d.a=(n,a,i)=>{var l;i&&((l=[]).d=1);var u,s,c,d=new Set,p=n.exports,f=new Promise(((e,r)=>{c=r,s=e}));f[r]=p,f[e]=e=>(l&&e(l),d.forEach(e),f.catch((e=>{}))),n.exports=f,a((n=>{var a;u=(n=>n.map((n=>{if(null!==n&&"object"==typeof n){if(n[e])return n;if(n.then){var a=[];a.d=0,n.then((e=>{i[r]=e,o(a)}),(e=>{i[t]=e,o(a)}));var i={};return i[e]=e=>e(a),i}}var l={};return l[e]=e=>{},l[r]=n,l})))(n);var i=()=>u.map((e=>{if(e[t])throw e[t];return e[r]})),s=new Promise((r=>{(a=()=>r(i)).r=0;var t=e=>e!==l&&!d.has(e)&&(d.add(e),e&&!e.d&&(a.r++,e.push(a)));u.map((r=>r[e](t)))}));return a.r?s:i()}),(e=>(e?c(f[t]=e):s(p),o(l)))),l&&(l.d=0)},n=[],d.O=(e,r,t,o)=>{if(!r){var a=1/0;for(s=0;s<n.length;s++){for(var[r,t,o]=n[s],i=!0,l=0;l<r.length;l++)(!1&o||a>=o)&&Object.keys(d.O).every((e=>d.O[e](r[l])))?r.splice(l--,1):(i=!1,o<a&&(a=o));if(i){n.splice(s--,1);var u=t();void 0!==u&&(e=u)}}return e}o=o||0;for(var s=n.length;s>0&&n[s-1][2]>o;s--)n[s]=n[s-1];n[s]=[r,t,o]},d.n=e=>{var r=e&&e.__esModule?()=>e.default:()=>e;return d.d(r,{a:r}),r},i=Object.getPrototypeOf?e=>Object.getPrototypeOf(e):e=>e.__proto__,d.t=function(e,r){if(1&r&&(e=this(e)),8&r)return e;if("object"==typeof e&&e){if(4&r&&e.__esModule)return e;if(16&r&&"function"==typeof e.then)return e}var t=Object.create(null);d.r(t);var o={};a=a||[null,i({}),i([]),i(i)];for(var n=2&r&&e;"object"==typeof n&&!~a.indexOf(n);n=i(n))Object.getOwnPropertyNames(n).forEach((r=>o[r]=()=>e[r]));return o.default=()=>e,d.d(t,o),t},d.d=(e,r)=>{for(var t in r)d.o(r,t)&&!d.o(e,t)&&Object.defineProperty(e,t,{enumerable:!0,get:r[t]})},d.f={},d.e=e=>Promise.all(Object.keys(d.f).reduce(((r,t)=>(d.f[t](e,r),r)),[])),d.u=e=>"static/"+({515:"sv-SE-json",873:"fr-FR-json"}[e]||e)+"."+{186:"a175ba4d",279:"4fa28c6b",515:"9c958c8c",873:"12bd34bc"}[e]+".chunk.js",d.g=function(){if("object"==typeof globalThis)return globalThis;try{return this||new Function("return this")()}catch(e){if("object"==typeof window)return window}}(),d.hmd=e=>((e=Object.create(e)).children||(e.children=[]),Object.defineProperty(e,"exports",{enumerable:!0,set:()=>{throw new Error("ES Modules may not assign module.exports or exports.*, Use ESM export syntax, instead: "+e.id)}}),e),d.o=(e,r)=>Object.prototype.hasOwnProperty.call(e,r),l={},u="insights-app:",d.l=(e,r,t,o)=>{if(l[e])l[e].push(r);else{var n,a;if(void 0!==t)for(var i=document.getElementsByTagName("script"),s=0;s<i.length;s++){var c=i[s];if(c.getAttribute("src")==e||c.getAttribute("data-webpack")==u+t){n=c;break}}n||(a=!0,(n=document.createElement("script")).charset="utf-8",n.timeout=120,d.nc&&n.setAttribute("nonce",d.nc),n.setAttribute("data-webpack",u+t),n.src=e),l[e]=[r];var p=(r,t)=>{n.onerror=n.onload=null,clearTimeout(f);var o=l[e];if(delete l[e],n.parentNode&&n.parentNode.removeChild(n),o&&o.forEach((e=>e(t))),r)return r(t)},f=setTimeout(p.bind(null,void 0,{type:"timeout",target:n}),12e4);n.onerror=p.bind(null,n.onerror),n.onload=p.bind(null,n.onload),a&&document.head.appendChild(n)}},d.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},d.nmd=e=>(e.paths=[],e.children||(e.children=[]),e),d.p="/",(()=>{var e={71:0};d.f.j=(r,t)=>{var o=d.o(e,r)?e[r]:void 0;if(0!==o)if(o)t.push(o[2]);else if(71!=r){var n=new Promise(((t,n)=>o=e[r]=[t,n]));t.push(o[2]=n);var a=d.p+d.u(r),i=new Error;d.l(a,(t=>{if(d.o(e,r)&&(0!==(o=e[r])&&(e[r]=void 0),o)){var n=t&&("load"===t.type?"missing":t.type),a=t&&t.target&&t.target.src;i.message="Loading chunk "+r+" failed.\n("+n+": "+a+")",i.name="ChunkLoadError",i.type=n,i.request=a,o[1](i)}}),"chunk-"+r,r)}else e[r]=0},d.O.j=r=>0===e[r];var r=(r,t)=>{var o,n,[a,i,l]=t,u=0;if(a.some((r=>0!==e[r]))){for(o in i)d.o(i,o)&&(d.m[o]=i[o]);if(l)var s=l(d)}for(r&&r(t);u<a.length;u++)n=a[u],d.o(e,n)&&e[n]&&e[n][0](),e[n]=0;return d.O(s)},t=globalThis.webpackChunkinsights_app=globalThis.webpackChunkinsights_app||[];t.forEach(r.bind(null,0)),t.push=r.bind(null,t.push.bind(t))})(),d.nc=void 0})();</script><script defer="defer" src="/static/214.cc2251ed.js"></script><script defer="defer" src="/static/app.03ab5e4f.js"></script></head><body><div id="app-root"></div></body></html>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/global/feed/rss.xslt" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:podaccess="https://access.acast.com/schema/1.0/" xmlns:acast="https://schema.acast.com/1.0/">
+		<channel>
+				<ttl>60</ttl>
+
+				<generator>acast.com</generator>
+
+				<title>Returns To Scope</title>
+
+				<link>https://feeds.acast.com/public/shows/returns-to-scope</link>
+
+			<atom:link href="https://feeds.acast.com/public/shows/642b4366fe70630011c90d21" rel="self" type="application/rss+xml"/>
+				<language>en</language>
+
+				<copyright>Thomas Durfee</copyright>
+
+				<itunes:keywords/>
+
+				<itunes:author>Thomas Durfee</itunes:author>
+
+				<itunes:subtitle>A discussion of social science goings on</itunes:subtitle>
+
+				<itunes:summary><![CDATA[<h3>Returns to Scope is an educational project. Our goal is to create tools that help teach economics and policy analysis by making practical, clear, and informative content.</h3><h3>The name Returns to Scope is the economic theory that you can accomplish more if you dabble a little in many fields, or if you cover a wide array of topics. The goal of this project is to give simple guides to economics and policy in hopes of making teaching tools that spur learning, discussion, and growth.</h3><p><br><br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></itunes:summary>
+
+				<description><![CDATA[<h3>Returns to Scope is an educational project. Our goal is to create tools that help teach economics and policy analysis by making practical, clear, and informative content.</h3><h3>The name Returns to Scope is the economic theory that you can accomplish more if you dabble a little in many fields, or if you cover a wide array of topics. The goal of this project is to give simple guides to economics and policy in hopes of making teaching tools that spur learning, discussion, and growth.</h3><p><br><br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></description>
+
+				<itunes:explicit>no</itunes:explicit>
+
+				<itunes:owner>
+					<itunes:name>Thomas Durfee</itunes:name>
+					<itunes:email>info+642b4366fe70630011c90d21@mg.pippa.io</itunes:email>
+</itunes:owner>
+
+				<acast:showId>642b4366fe70630011c90d21</acast:showId>
+
+				<acast:showUrl>returns-to-scope</acast:showUrl>
+
+			<acast:signature key="EXAMPLE" algorithm="aes-256-cbc"><![CDATA[2JFTV6eBFJAxuoqTQgt66Q==]]></acast:signature>
+				<acast:settings><![CDATA[7sO4IanvsoqASCGWVlELC7prr2RSY/egNI5iXIlK+g/8sXsRqBR1Nt3V+TwWPmXHuZL1ixFE9EmZr8BNYhVZxS/HXLweq6utukHpK7yBya3yM4UNRQSrdo9yVZHNHrGStlhh4MKXVRYnBEpujNU+FKGIpesdOih9FEUqqLqxR66+3tVmCureYhXG5opJJCz4V/p4ow/GDUWTYj85NIwlFg1c70ZtQqba2k/hqEIrBNTA4MTnHx91vby+ZIVRxksUkCo8DqkP2UDQePx7RhqpwOMN8pM/Y0idli0bkNOg4jhvJnD10YIPsJOTOAXlnPBqEtEZp9VSeLGAGrqYm4h07mY6yax8uI0guwNeqIzEJXNKAUX2blg5wDQiuCMqf4jRQyYs8NGoP7f/oVe8i2TB+FLrOSmrWPSOCHI50qSs06Ndh+kLFLoUcSUQDOob6DA5b2WTR/f1XSCBuwohw1wJnvuknWoZopwbv6rKq0CRADU=]]></acast:settings>
+
+				<itunes:type>episodic</itunes:type>
+
+			<itunes:image href="https://assets.pippa.io/shows/cover/1680556726848-0fa36f6243f261d05814e7177f2402aa.jpeg"/>
+				<image>
+					<url>https://assets.pippa.io/shows/cover/1680556726848-0fa36f6243f261d05814e7177f2402aa.jpeg</url>
+					<link>https://feeds.acast.com/public/shows/returns-to-scope</link>
+					<title>Returns To Scope</title>
+</image>
+
+				<item>
+						<title>RTS - The June 2023 CES Report</title>
+
+						<itunes:title>RTS - The June 2023 CES Report</itunes:title>
+
+						<pubDate>Fri, 02 Jun 2023 18:38:57 GMT</pubDate>
+
+						<itunes:duration>17:40</itunes:duration>
+
+					<enclosure url="https://sphinx.acast.com/p/open/s/642b4366fe70630011c90d21/e/647a3743d649ca001162322f/media.mp3" length="33943296" type="audio/mpeg"/>
+					<guid isPermaLink="false">647a3743d649ca001162322f</guid>
+						<itunes:explicit>no</itunes:explicit>
+
+						<link>https://shows.acast.com/returns-to-scope/episodes/rts-the-june-2023-ces-report</link>
+
+						<acast:episodeId>647a3743d649ca001162322f</acast:episodeId>
+
+						<acast:episodeUrl>rts-the-june-2023-ces-report</acast:episodeUrl>
+
+						<acast:settings><![CDATA[7sO4IanvsoqASCGWVlELC6h1a0dax8WTrSmUJIZVD6MGZda2tFFBCiRg1zph+x9R1j+a98/umiN8PO8r/2RwWdyRgZvbLr8pnopOXdTRI5We9Z+FwiAcbbh2sXqb6LPTjXXht7c9OqdNrmK3ecxrHY5irehdwVSF2K/F4YzkYixIvT4oosKt2zMDGm4I2HWxOtlQK83NP3RSz9xAnGH1XTeXjszhTmCSsxuj3wY0wO9SX1tPcbSjzTzqZuxZB/TsdM8MjcRrFAWxq2pzR5uWBQFoDX/SdqGmfweC6t87GpOmuM7514IGC2+Vhnqw6tPM6Z7QLDpBRxtvAQoLS/ucZ8vbCVfgksxLchjbx6cpzxX6vYc0AAxHJR9yopd45qp36P5YuzP8SLraBb/G95UKbjAOXpPoggXVI9aMQ1uJ+DPkfYy7hDsAhuKBWPx5OlWKApTKlxMWQq3mboup9kd/zh+0KeCnizxPN7eVZNDGt6O4dU1SIlfda89zx9cjLnjthqARs5+CObdCDjBu/PL81cxi54jsSpdkHCAfoSw2GVS8a/vIwaRJXv65SpT9V6Ei]]></acast:settings>
+
+						<itunes:subtitle>Employment Data from the BLS</itunes:subtitle>
+
+						<itunes:episodeType>full</itunes:episodeType>
+
+						<itunes:episode>5</itunes:episode>
+
+					<itunes:image href="https://assets.pippa.io/shows/cover/1680556726848-0fa36f6243f261d05814e7177f2402aa.jpeg"/>
+						<description><![CDATA[This episode covers the Bureau of Labor Statistic Current Employment Situation report rom 6/2/2023. I read off the report, mention some caveats, and share three notable takeaways. <br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></description>
+
+						<itunes:summary><![CDATA[This episode covers the Bureau of Labor Statistic Current Employment Situation report rom 6/2/2023. I read off the report, mention some caveats, and share three notable takeaways. <br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></itunes:summary>
+
+</item>
+
+				<item>
+						<title>RTS - The May 2023 JOLTS Report</title>
+
+						<itunes:title>RTS - The May 2023 JOLTS Report</itunes:title>
+
+						<pubDate>Wed, 31 May 2023 18:08:47 GMT</pubDate>
+
+						<itunes:duration>9:08</itunes:duration>
+
+					<enclosure url="https://sphinx.acast.com/p/open/s/642b4366fe70630011c90d21/e/64778d302cb92f00127dbf46/media.mp3" length="17561856" type="audio/mpeg"/>
+					<guid isPermaLink="false">64778d302cb92f00127dbf46</guid>
+						<itunes:explicit>no</itunes:explicit>
+
+						<link>https://shows.acast.com/returns-to-scope/episodes/rts-the-may-2023-jolts-report</link>
+
+						<acast:episodeId>64778d302cb92f00127dbf46</acast:episodeId>
+
+						<acast:episodeUrl>rts-the-may-2023-jolts-report</acast:episodeUrl>
+
+						<acast:settings><![CDATA[7sO4IanvsoqASCGWVlELC6h1a0dax8WTrSmUJIZVD6MGZda2tFFBCiRg1zph+x9R1j+a98/umiN8PO8r/2RwWdyRgZvbLr8pnopOXdTRI5We9Z+FwiAcbbh2sXqb6LPTjXXht7c9OqdNrmK3ecxrHY5irehdwVSF2K/F4YzkYixIvT4oosKt2zMDGm4I2HWxOtlQK83NP3RSz9xAnGH1XTeXjszhTmCSsxuj3wY0wO9SX1tPcbSjzTzqZuxZB/TsdM8MjcRrFAWxq2pzR5uWBQFoDX/SdqGmfweC6t87GpOmuM7514IGC2+Vhnqw6tPM6Z7QLDpBRxtvAQoLS/ucZ8vbCVfgksxLchjbx6cpzxX6vYc0AAxHJR9yopd45qp36P5YuzP8SLraBb/G95UKbjAOXpPoggXVI9aMQ1uJ+DPkfYy7hDsAhuKBWPx5OlWKApTKlxMWQq3mboup9kd/zh+0KeCnizxPN7eVZNDGt6OqSLsuE+QwLj27BIC/b1+48nfIx5IUoTOkSDkEfHkyqXqK5jGJ1vkzatHjYc3Y9Vxjlwpi64gBUETmPahx/xNY]]></acast:settings>
+
+						<itunes:subtitle>Turnover data from the BLS</itunes:subtitle>
+
+						<itunes:episodeType>full</itunes:episodeType>
+
+						<itunes:episode>4</itunes:episode>
+
+					<itunes:image href="https://assets.pippa.io/shows/cover/1680556726848-0fa36f6243f261d05814e7177f2402aa.jpeg"/>
+						<description><![CDATA[This episode covers the Job Openings &amp; Labor Turnover Survey report from the Bureau of Labor Statistics, and covers changes in employment around the time of 04/2023. This is an audio version of the BLS report, with some minor phrasing edits.<br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></description>
+
+						<itunes:summary><![CDATA[This episode covers the Job Openings &amp; Labor Turnover Survey report from the Bureau of Labor Statistics, and covers changes in employment around the time of 04/2023. This is an audio version of the BLS report, with some minor phrasing edits.<br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></itunes:summary>
+
+</item>
+
+				<item>
+						<title>RTS - The May 2023 CES Report</title>
+
+						<itunes:title>RTS - The May 2023 CES Report</itunes:title>
+
+						<pubDate>Fri, 05 May 2023 19:05:41 GMT</pubDate>
+
+						<itunes:duration>15:47</itunes:duration>
+
+					<enclosure url="https://sphinx.acast.com/p/open/s/642b4366fe70630011c90d21/e/64555386c7168c001146ffd3/media.mp3" length="30319872" type="audio/mpeg"/>
+					<guid isPermaLink="false">64555386c7168c001146ffd3</guid>
+						<itunes:explicit>no</itunes:explicit>
+
+						<link>https://shows.acast.com/returns-to-scope/episodes/rts-the-may-2023-ces-report</link>
+
+						<acast:episodeId>64555386c7168c001146ffd3</acast:episodeId>
+
+						<acast:episodeUrl>rts-the-may-2023-ces-report</acast:episodeUrl>
+
+						<acast:settings><![CDATA[7sO4IanvsoqASCGWVlELC6h1a0dax8WTrSmUJIZVD6MGZda2tFFBCiRg1zph+x9R1j+a98/umiN8PO8r/2RwWdyRgZvbLr8pnopOXdTRI5We9Z+FwiAcbbh2sXqb6LPTjXXht7c9OqdNrmK3ecxrHY5irehdwVSF2K/F4YzkYixIvT4oosKt2zMDGm4I2HWxOtlQK83NP3RSz9xAnGH1XTeXjszhTmCSsxuj3wY0wO9SX1tPcbSjzTzqZuxZB/TsdM8MjcRrFAWxq2pzR5uWBQFoDX/SdqGmfweC6t87GpOmuM7514IGC2+Vhnqw6tPM6Z7QLDpBRxtvAQoLS/ucZ8vbCVfgksxLchjbx6cpzxX6vYc0AAxHJR9yopd45qp36P5YuzP8SLraBb/G95UKbjAOXpPoggXVI9aMQ1uJ+DPkfYy7hDsAhuKBWPx5OlWKApTKlxMWQq3mboup9kd/zh+0KeCnizxPN7eVZNDGt6MdpyCcRIxhDPRhm+s/wfyYCcTRMMAb0vTKgz/9y7g0sNIdTkyYfPWQi3ZS/sWXya7B6EaIIJfyb9KKUlNJ/AKD]]></acast:settings>
+
+						<itunes:subtitle>Employment Data from the BLS</itunes:subtitle>
+
+						<itunes:episodeType>full</itunes:episodeType>
+
+						<itunes:episode>3</itunes:episode>
+
+					<itunes:image href="https://assets.pippa.io/shows/cover/1680556726848-0fa36f6243f261d05814e7177f2402aa.jpeg"/>
+						<description><![CDATA[This episode covers the Current Employment Situation report from the Bureau of Labor Statistics. This covers changes in employment around the time of 04/12/2023,  and was released on 05/05/2023<br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></description>
+
+						<itunes:summary><![CDATA[This episode covers the Current Employment Situation report from the Bureau of Labor Statistics. This covers changes in employment around the time of 04/12/2023,  and was released on 05/05/2023<br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></itunes:summary>
+
+</item>
+
+				<item>
+						<title>RTS - The April 2023 CES Report</title>
+
+						<itunes:title>RTS - The April 2023 CES Report</itunes:title>
+
+						<pubDate>Sat, 08 Apr 2023 00:48:08 GMT</pubDate>
+
+						<itunes:duration>13:37</itunes:duration>
+
+					<enclosure url="https://sphinx.acast.com/p/open/s/642b4366fe70630011c90d21/e/6430b9c8545d9b0011549a64/media.mp3" length="26149632" type="audio/mpeg"/>
+					<guid isPermaLink="false">6430b9c8545d9b0011549a64</guid>
+						<itunes:explicit>no</itunes:explicit>
+
+						<link>https://shows.acast.com/returns-to-scope/episodes/rts-the-april-2023-ces-report</link>
+
+						<acast:episodeId>6430b9c8545d9b0011549a64</acast:episodeId>
+
+						<acast:episodeUrl>rts-the-april-2023-ces-report</acast:episodeUrl>
+
+						<acast:settings><![CDATA[7sO4IanvsoqASCGWVlELC6h1a0dax8WTrSmUJIZVD6MGZda2tFFBCiRg1zph+x9R1j+a98/umiN8PO8r/2RwWdyRgZvbLr8pnopOXdTRI5We9Z+FwiAcbbh2sXqb6LPTjXXht7c9OqdNrmK3ecxrHY5irehdwVSF2K/F4YzkYixIvT4oosKt2zMDGm4I2HWxOtlQK83NP3RSz9xAnGH1XTeXjszhTmCSsxuj3wY0wO9SX1tPcbSjzTzqZuxZB/TsdM8MjcRrFAWxq2pzR5uWBQFoDX/SdqGmfweC6t87GpOmuM7514IGC2+Vhnqw6tPM6Z7QLDpBRxtvAQoLS/ucZ8vbCVfgksxLchjbx6cpzxX6vYc0AAxHJR9yopd45qp36P5YuzP8SLraBb/G95UKbjAOXpPoggXVI9aMQ1uJ+DPkfYy7hDsAhuKBWPx5OlWKApTKlxMWQq3mboup9kd/zh+0KeCnizxPN7eVZNDGt6OupeUYjFxw0TjUeJQNut074tqirurG2lezWdvAaDACZqdPaPm1K2pgIovUuXLNzjidBvZS2BLnCaqZ4zE1cqgH]]></acast:settings>
+
+						<itunes:subtitle>Employment Data from the BLS</itunes:subtitle>
+
+						<itunes:episodeType>full</itunes:episodeType>
+
+						<itunes:season>1</itunes:season>
+
+						<itunes:episode>2</itunes:episode>
+
+					<itunes:image href="https://assets.pippa.io/shows/cover/1680556726848-0fa36f6243f261d05814e7177f2402aa.jpeg"/>
+						<description><![CDATA[<p>This episode is an audio version of the BLS Current Employment Situation report. If you have already read the report, this episode is just an audio version (with some minor edits for audio intelligibility). </p><br><p>This is an unofficial product, and any errors in transcription are my own. For the official report, go to bls.gov.</p><br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></description>
+
+						<itunes:summary><![CDATA[<p>This episode is an audio version of the BLS Current Employment Situation report. If you have already read the report, this episode is just an audio version (with some minor edits for audio intelligibility). </p><br><p>This is an unofficial product, and any errors in transcription are my own. For the official report, go to bls.gov.</p><br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></itunes:summary>
+
+</item>
+
+				<item>
+						<title>RTS - The April 2023 JOLTS Report</title>
+
+						<itunes:title>RTS - The April 2023 JOLTS Report</itunes:title>
+
+						<pubDate>Tue, 04 Apr 2023 19:25:15 GMT</pubDate>
+
+						<itunes:duration>13:47</itunes:duration>
+
+					<enclosure url="https://sphinx.acast.com/p/open/s/642b4366fe70630011c90d21/e/642c799b2627140010c778d1/media.mp3" length="26489856" type="audio/mpeg"/>
+					<guid isPermaLink="false">642c799b2627140010c778d1</guid>
+						<itunes:explicit>no</itunes:explicit>
+
+						<link>https://shows.acast.com/returns-to-scope/episodes/642c799b2627140010c778d1</link>
+
+						<acast:episodeId>642c799b2627140010c778d1</acast:episodeId>
+
+						<acast:settings><![CDATA[7sO4IanvsoqASCGWVlELC6h1a0dax8WTrSmUJIZVD6MGZda2tFFBCiRg1zph+x9R1j+a98/umiN8PO8r/2RwWdyRgZvbLr8pnopOXdTRI5We9Z+FwiAcbbh2sXqb6LPTjXXht7c9OqdNrmK3ecxrHY5irehdwVSF2K/F4YzkYixIvT4oosKt2zMDGm4I2HWxOtlQK83NP3RSz9xAnGH1XTeXjszhTmCSsxuj3wY0wO9SX1tPcbSjzTzqZuxZB/TsdM8MjcRrFAWxq2pzR5uWBQFoDX/SdqGmfweC6t87GpOmuM7514IGC2+Vhnqw6tPM6Z7QLDpBRxtvAQoLS/ucZ8vbCVfgksxLchjbx6cpzxX6vYc0AAxHJR9yopd45qp36P5YuzP8SLraBb/G95UKbjAOXpPoggXVI9aMQ1uJ+DPkfYy7hDsAhuKBWPx5OlWKApTKlxMWQq3mboup9kd/zh+0KeCnizxPN7eVZNDGt6NuRU6NZA6T/mSPv447xXvU1QGfUk/70uYa2UHsCxIH3NlUAsAx+ht2HZn/lz9gJ5AELz0G1gEcd9gszGH4sMRL]]></acast:settings>
+
+						<itunes:subtitle>Turnover data from the BLS</itunes:subtitle>
+
+						<itunes:episodeType>full</itunes:episodeType>
+
+						<itunes:season>1</itunes:season>
+
+						<itunes:episode>1</itunes:episode>
+
+					<itunes:image href="https://assets.pippa.io/shows/cover/1680556726848-0fa36f6243f261d05814e7177f2402aa.jpeg"/>
+						<description><![CDATA[<p>The first episode includes text from the Bureau of Labor Statistics report on job vacancies and labor turnover from data collected in February 2023. I read the release, and share my initial thoughts. For the official JOLTS release, go to bls.gov. </p><br><p>This is not an official BLS project, but a voluntary project intended for educational purposes.</p><p><br></p><br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></description>
+
+						<itunes:summary><![CDATA[<p>The first episode includes text from the Bureau of Labor Statistics report on job vacancies and labor turnover from data collected in February 2023. I read the release, and share my initial thoughts. For the official JOLTS release, go to bls.gov. </p><br><p>This is not an official BLS project, but a voluntary project intended for educational purposes.</p><p><br></p><br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></itunes:summary>
+
+</item>
+
+				<item>
+						<title>Introduction to Returns to Scope</title>
+
+						<itunes:title>Introduction to Returns to Scope</itunes:title>
+
+						<pubDate>Mon, 03 Apr 2023 21:26:49 GMT</pubDate>
+
+						<itunes:duration>0:33</itunes:duration>
+
+					<enclosure url="https://sphinx.acast.com/p/open/s/642b4366fe70630011c90d21/e/642b449d9bb1730011eeef03/media.mp3" length="559562" type="audio/mpeg"/>
+					<guid isPermaLink="false">642b449d9bb1730011eeef03</guid>
+						<itunes:explicit>no</itunes:explicit>
+
+						<link>https://shows.acast.com/returns-to-scope/episodes/642b449d9bb1730011eeef03</link>
+
+						<acast:episodeId>642b449d9bb1730011eeef03</acast:episodeId>
+
+						<acast:settings><![CDATA[7sO4IanvsoqASCGWVlELC6h1a0dax8WTrSmUJIZVD6MGZda2tFFBCiRg1zph+x9R1j+a98/umiN8PO8r/2RwWdyRgZvbLr8pnopOXdTRI5We9Z+FwiAcbbh2sXqb6LPTjXXht7c9OqdNrmK3ecxrHY5irehdwVSF2K/F4YzkYixIvT4oosKt2zMDGm4I2HWxOtlQK83NP3RSz9xAnGH1XTeXjszhTmCSsxuj3wY0wO9SX1tPcbSjzTzqZuxZB/TsdM8MjcRrFAWxq2pzR5uWBQFoDX/SdqGmfweC6t87GpOmuM7514IGC2+Vhnqw6tPM6Z7QLDpBRxtvAQoLS/ucZ8vbCVfgksxLchjbx6cpzxX6vYc0AAxHJR9yopd45qp36P5YuzP8SLraBb/G95UKbjAOXpPoggXVI9aMQ1uJ+DPkfYy7hDsAhuKBWPx5OlWKApTKlxMWQq3mboup9kd/zh+0KeCnizxPN7eVZNDGt6NyXtdyxp80EqBNhig8NFF4QU3caiZjMT2acSTyHYZXNM5Av7gktAFg+9ZULf4EP0FMalI8FxVByGNgpREe4lWS]]></acast:settings>
+
+						<itunes:subtitle>Objectives of the channel</itunes:subtitle>
+
+						<itunes:episodeType>full</itunes:episodeType>
+
+					<itunes:image href="https://assets.pippa.io/shows/cover/1680556726848-0fa36f6243f261d05814e7177f2402aa.jpeg"/>
+						<description><![CDATA[Welcome to Returns To Scope. This is an educational project where we cover economic and quantitative data.<br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></description>
+
+						<itunes:summary><![CDATA[Welcome to Returns To Scope. This is an educational project where we cover economic and quantitative data.<br /><hr><p style='color:grey; font-size:0.75em;'> Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>]]></itunes:summary>
+
+</item>
+
+			<itunes:category text="Education"/>
+			<itunes:category text="Science">
+					<itunes:category text="Social Sciences"/>
+
+			</itunes:category>
+</channel>
+
+</rss>
