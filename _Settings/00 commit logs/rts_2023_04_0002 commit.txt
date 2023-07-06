@@ -1,7 +1,7 @@
 Project Name: Returns To Scope 
 Project State: initialization 
 Project Directory: /i/Returns to Scope/Podcasts/Publish 
-Last Update: Mon Apr  3 17:05:20 CDT 2023 
+Last Update: Tue Apr  4 14:27:22 CDT 2023 
 Branch Name: rts_2023_04_0003 
 Branch UID: 0003 
  
@@ -16,4 +16,4 @@ Next Time I Will :
  
  
  
-Time of Commit: Tue Apr  4 14:26:49 CDT 2023
+Time of Commit: Tue Apr  4 15:01:57 CDT 2023
