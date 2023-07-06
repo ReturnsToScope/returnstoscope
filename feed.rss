@@ -36,8 +36,10 @@
 
 				<acast:showUrl>returns-to-scope</acast:showUrl>
 
+
 			<acast:signature key="EXAMPLE" algorithm="aes-256-cbc"><![CDATA[4795m1g6Zgip5Oj/YbofAg==]]></acast:signature>
 				<acast:settings><![CDATA[cJgX47P8SrLnsL3O4wOl/thXi/CdBbiMd1oa+oUPsHM3pqFkDoagvhknRwKPGaEqnm4FqUon5JNm7luGan02b86uRC2nsMg69fhAQhQDEZTwgmTP9ITUyz7nz7a2jiRIQZQVZI8xMzukjBc7xyvpt1+NnGRuQTkKncUwPfFU5ym7r8JziIV6bBViemcfonb5edHdMKXNXYPifJjXeGLoy98Rn5vSIMYZ0DgSSeXUIANIrPNmUx0LFbMK8+GAJWVOma7gMw8z3/hOmSwc/isf5RoQZkmRcH7kF1MdJP5AiDpBQ8I85guYfBZBw1aJ+v7bHCZuC9f83T4re1u6/UT+fy9GZT1VySzXWQ2expvKxYZOa0nrZl3NLQ1d5SWNHCEPl1hI+z+Z5u9wgNTY00xQUHSWqXem19bpuEb6Fs2Wsy1gZ7A66IzILHJWzULTOni7UpW3QLuXMU9038AFLGfRWjf8EJcHP47Aw72Ltn/rbgg=]]></acast:settings>
+
 
 				<itunes:type>episodic</itunes:type>
 
@@ -85,6 +87,7 @@
 </item>
 
 				<item>
+
 						<title>RTS - The June 2023 CES Report</title>
 
 						<itunes:title>RTS - The June 2023 CES Report</itunes:title>
@@ -103,7 +106,9 @@
 
 						<acast:episodeUrl>rts-the-june-2023-ces-report</acast:episodeUrl>
 
+
 						<acast:settings><![CDATA[cJgX47P8SrLnsL3O4wOl/tdiw2ppcNX0r3Kb5zSV/9mIa1ooJH3a36QFY4t5duuG0Dg+56SFJgBxIdFRM3EB9qrBR8eDIe3QhDMCwlkvBfVIRNUPL/NTTnhi9hmTyq4oHZHk+3wx61B6SQ4kzcNMzZqt8lcioQjkYZpNc6xT3br/gdKSFKsHT4eoQ1tmuTKAub1jHv3dC94hlcw1lpmRSyIbP+HZAhoxXkRODS5/K1sBf9gYDxCCCa2qVkuFyza2QEiPQuSGPAgrUk92n5qu9rOq521xlaVNG09Evi8LYJTUX41OAJP9FK4CQHsGs1qCw8ALu+Pm5uYsW9R7NDlXufymsmK1c/jzh+32rp7ii+jOqfCB755W4SC9Fhp2QeYwuqmXOiB0ul/8d6cpGRk2+p3/YwuUlT9K3DDL/jzrrDj2KwtYrJxNvCrXgxhzj+6jMImsIPLA/HXSoNy7il7fnxrxwNLyAO/0rb7v9/+oxl9ox4rlhlQrS/CppelBVYhuiAHtZBSnkoU9EiwZe7ZsJ5E+903gtVOlN58EQ1iKl4GCLo6vXbwJ4bXrnARZqw+j]]></acast:settings>
+
 
 						<itunes:subtitle>Employment Data from the BLS</itunes:subtitle>
 
@@ -137,7 +142,9 @@
 
 						<acast:episodeUrl>rts-the-may-2023-jolts-report</acast:episodeUrl>
 
+
 						<acast:settings><![CDATA[cJgX47P8SrLnsL3O4wOl/tdiw2ppcNX0r3Kb5zSV/9mIa1ooJH3a36QFY4t5duuG0Dg+56SFJgBxIdFRM3EB9qrBR8eDIe3QhDMCwlkvBfVIRNUPL/NTTnhi9hmTyq4oHZHk+3wx61B6SQ4kzcNMzZqt8lcioQjkYZpNc6xT3br/gdKSFKsHT4eoQ1tmuTKAub1jHv3dC94hlcw1lpmRSyIbP+HZAhoxXkRODS5/K1sBf9gYDxCCCa2qVkuFyza2QEiPQuSGPAgrUk92n5qu9rOq521xlaVNG09Evi8LYJTUX41OAJP9FK4CQHsGs1qCw8ALu+Pm5uYsW9R7NDlXufymsmK1c/jzh+32rp7ii+jOqfCB755W4SC9Fhp2QeYwuqmXOiB0ul/8d6cpGRk2+p3/YwuUlT9K3DDL/jzrrDj2KwtYrJxNvCrXgxhzj+6jMImsIPLA/HXSoNy7il7fnxrxwNLyAO/0rb7v9/+oxl++ZLn4jKC8YrsT2bXzAWL4h2Y2ls8voRUfqDK96sw1Z126TN0nX3MYAeRRd+iFdO7szzDoRGJ0jSk7RVw18ViM]]></acast:settings>
+
 
 						<itunes:subtitle>Turnover data from the BLS</itunes:subtitle>
 
@@ -171,7 +178,9 @@
 
 						<acast:episodeUrl>rts-the-may-2023-ces-report</acast:episodeUrl>
 
+
 						<acast:settings><![CDATA[cJgX47P8SrLnsL3O4wOl/tdiw2ppcNX0r3Kb5zSV/9mIa1ooJH3a36QFY4t5duuG0Dg+56SFJgBxIdFRM3EB9qrBR8eDIe3QhDMCwlkvBfVIRNUPL/NTTnhi9hmTyq4oHZHk+3wx61B6SQ4kzcNMzZqt8lcioQjkYZpNc6xT3br/gdKSFKsHT4eoQ1tmuTKAub1jHv3dC94hlcw1lpmRSyIbP+HZAhoxXkRODS5/K1sBf9gYDxCCCa2qVkuFyza2QEiPQuSGPAgrUk92n5qu9rOq521xlaVNG09Evi8LYJTUX41OAJP9FK4CQHsGs1qCw8ALu+Pm5uYsW9R7NDlXufymsmK1c/jzh+32rp7ii+jOqfCB755W4SC9Fhp2QeYwuqmXOiB0ul/8d6cpGRk2+p3/YwuUlT9K3DDL/jzrrDj2KwtYrJxNvCrXgxhzj+6jMImsIPLA/HXSoNy7il7fnxrxwNLyAO/0rb7v9/+oxl9Vp90SLZBwy1kcNOWf5dQXg13zeAHLeCL0BTqGHsf7ZHqwIk1hajNosCvssvzkffQ1TRxTOSnsMX0lHcvOgWTV]]></acast:settings>
+
 
 						<itunes:subtitle>Employment Data from the BLS</itunes:subtitle>
 
@@ -205,7 +214,9 @@
 
 						<acast:episodeUrl>rts-the-april-2023-ces-report</acast:episodeUrl>
 
+
 						<acast:settings><![CDATA[cJgX47P8SrLnsL3O4wOl/tdiw2ppcNX0r3Kb5zSV/9mIa1ooJH3a36QFY4t5duuG0Dg+56SFJgBxIdFRM3EB9qrBR8eDIe3QhDMCwlkvBfVIRNUPL/NTTnhi9hmTyq4oHZHk+3wx61B6SQ4kzcNMzZqt8lcioQjkYZpNc6xT3br/gdKSFKsHT4eoQ1tmuTKAub1jHv3dC94hlcw1lpmRSyIbP+HZAhoxXkRODS5/K1sBf9gYDxCCCa2qVkuFyza2QEiPQuSGPAgrUk92n5qu9rOq521xlaVNG09Evi8LYJTUX41OAJP9FK4CQHsGs1qCw8ALu+Pm5uYsW9R7NDlXufymsmK1c/jzh+32rp7ii+jOqfCB755W4SC9Fhp2QeYwuqmXOiB0ul/8d6cpGRk2+p3/YwuUlT9K3DDL/jzrrDj2KwtYrJxNvCrXgxhzj+6jMImsIPLA/HXSoNy7il7fnxrxwNLyAO/0rb7v9/+oxl+KVO9uvsK/8ma3oQnhEyJeJr8O8HHc0k77BnRkGyHpKe8mILgtOgsl0qbGxSNHWS58MZx2FvvF66SLKGxcgpW5]]></acast:settings>
+
 
 						<itunes:subtitle>Employment Data from the BLS</itunes:subtitle>
 
@@ -239,7 +250,9 @@
 
 						<acast:episodeId>642c799b2627140010c778d1</acast:episodeId>
 
+
 						<acast:settings><![CDATA[cJgX47P8SrLnsL3O4wOl/tdiw2ppcNX0r3Kb5zSV/9mIa1ooJH3a36QFY4t5duuG0Dg+56SFJgBxIdFRM3EB9qrBR8eDIe3QhDMCwlkvBfVIRNUPL/NTTnhi9hmTyq4oHZHk+3wx61B6SQ4kzcNMzZqt8lcioQjkYZpNc6xT3br/gdKSFKsHT4eoQ1tmuTKAub1jHv3dC94hlcw1lpmRSyIbP+HZAhoxXkRODS5/K1sBf9gYDxCCCa2qVkuFyza2QEiPQuSGPAgrUk92n5qu9rOq521xlaVNG09Evi8LYJTUX41OAJP9FK4CQHsGs1qCw8ALu+Pm5uYsW9R7NDlXufymsmK1c/jzh+32rp7ii+jOqfCB755W4SC9Fhp2QeYwuqmXOiB0ul/8d6cpGRk2+p3/YwuUlT9K3DDL/jzrrDj2KwtYrJxNvCrXgxhzj+6jMImsIPLA/HXSoNy7il7fnxrxwNLyAO/0rb7v9/+oxl/dICPzJ1arrD90zCRcz5aPDdEDITQt/Esj2wXZzzry49iu2IPzsqn+bvbzD/E+XRNeqWYSElmYCfB1QKwbJtnc]]></acast:settings>
+
 
 						<itunes:subtitle>Turnover data from the BLS</itunes:subtitle>
 
@@ -273,7 +286,9 @@
 
 						<acast:episodeId>642b449d9bb1730011eeef03</acast:episodeId>
 
+
 						<acast:settings><![CDATA[cJgX47P8SrLnsL3O4wOl/tdiw2ppcNX0r3Kb5zSV/9mIa1ooJH3a36QFY4t5duuG0Dg+56SFJgBxIdFRM3EB9qrBR8eDIe3QhDMCwlkvBfVIRNUPL/NTTnhi9hmTyq4oHZHk+3wx61B6SQ4kzcNMzZqt8lcioQjkYZpNc6xT3br/gdKSFKsHT4eoQ1tmuTKAub1jHv3dC94hlcw1lpmRSyIbP+HZAhoxXkRODS5/K1sBf9gYDxCCCa2qVkuFyza2QEiPQuSGPAgrUk92n5qu9rOq521xlaVNG09Evi8LYJTUX41OAJP9FK4CQHsGs1qCw8ALu+Pm5uYsW9R7NDlXufymsmK1c/jzh+32rp7ii+jOqfCB755W4SC9Fhp2QeYwuqmXOiB0ul/8d6cpGRk2+p3/YwuUlT9K3DDL/jzrrDj2KwtYrJxNvCrXgxhzj+6jMImsIPLA/HXSoNy7il7fnxrxwNLyAO/0rb7v9/+oxl8bLqah6++cxSyuuUf19i5pbD98RqrLiPHxxfqy5C2t4P2sAN8f2voe+Tt+FoXHJHyRfAx/BuQkVr/x0XVhay7R]]></acast:settings>
+
 
 						<itunes:subtitle>Objectives of the channel</itunes:subtitle>
 
